@@ -16,9 +16,9 @@ public class HashtableExample {
 		while(true) {
 			System.out.println("아이디와 비밀번호를 입력해주세요.");
 			System.out.print("아이디: ");
-			String id = scanner.nextLine();
+			String id = scanner.nextLine().trim();
 			System.out.print("비밀번호: ");
-			String password = scanner.nextLine();
+			String password = scanner.nextLine().trim();
 			System.out.println();
 			
 			if(map.containsKey(id)) {
